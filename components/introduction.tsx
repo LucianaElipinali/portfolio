@@ -22,12 +22,12 @@ const Introduction = () => {
                             wrapper="span"
                             speed={50}
                             repeat={Infinity}
-                            className="font-bold text-secondary"
+                            className="font-bold text-[#f18dfa]"
                         />
                     </h1>
 
                     <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8">
-                        Como desarrollador frontend y creador de contenido, me dedico a combinar diseño y funcionalidad para crear experiencias digitales impactantes y accesibles.
+                        Hola! soy Luciana Elipinali y como  <span className="text-[#f18dfa]">desarrolladora frontend</span>  y creadora de contenido, me dedico a combinar diseño y funcionalidad para crear experiencias digitales exclusivas y accesibles.
                     </p>
 
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
@@ -35,7 +35,7 @@ const Introduction = () => {
                             Ver proyectos
                         </a>
                         <a href="/contact"
-                            className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary" >
+                            className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-[#f18dfa] border-[#f18dfa] rounded-xl hover:shadow-xl hover:shadow-[#f18dfa]" >
                             Contacta conmigo
                         </a>
                     </div>
