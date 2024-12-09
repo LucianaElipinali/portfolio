@@ -1,31 +1,26 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Github, Instagram } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa"; // Ícono de FontAwesome
 
 export const socialNetworks = [
+    
     {
         id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
         src: "#!",
     },
+
+    {
+        id: 2,
+        logo: <Github size={30} strokeWidth={1} />,
+        src: "#!",
+    },
+   
     {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
+        logo: <Instagram size={30} strokeWidth={1} />,
         src: "#!",
     },
-    {
-        id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
-    },
+   
 ];
 
 
@@ -54,12 +49,7 @@ export const itemsNavbar = [
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     },
-    {
-        id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
-    },
+  
 ];
 
 export const dataAboutPage = [
@@ -69,13 +59,6 @@ export const dataAboutPage = [
         subtitle: "TechSolutions",
         description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
         date: "Nov 2023 ",
-    },
-    {
-        id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
     },
     {
         id: 3,
@@ -115,13 +98,7 @@ export const dataCounter = [
         lineRight: true,
         lineRightMobile: true,
     },
-    {
-        id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
-        lineRight: false,
-        lineRightMobile: false,
-    },
+
 ];
 
 export const serviceData = [

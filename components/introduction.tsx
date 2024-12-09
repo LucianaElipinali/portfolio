@@ -27,7 +27,7 @@ const Introduction = () => {
                     </h1>
 
                     <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8">
-                        Hola! soy Luciana Elipinali y como  <span className="text-[#f18dfa]">desarrolladora frontend</span>  y creadora de contenido, me dedico a combinar diseño y funcionalidad para crear experiencias digitales exclusivas y accesibles.
+                        Hola! soy Luciana Elipinali y como  <span className="text-[#f18dfa]">desarrolladora frontend</span> me dedico a combinar diseño y funcionalidad para crear experiencias digitales exclusivas y accesibles.
                     </p>
 
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
