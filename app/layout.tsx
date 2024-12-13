@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 
 import { Urbanist } from "next/font/google";
 
-import 'swiper/css'
-import 'swiper/css/pagination'
-import 'swiper/css/scrollbar'
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 import "./globals.css";
 
@@ -25,10 +25,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={urbanist.className}>
-        <Navbar />
-        <Header />
-        {children}
+<body className={`${urbanist.className} bg-no-repeat bg-gradient-to-br from-blue-800 to-purple-400`}>
+<div className="flex flex-col min-h-screen">
+          <Navbar />
+          <Header />
+          <main className="flex-grow">{children}</main>
+        </div>
       </body>
     </html>
   );

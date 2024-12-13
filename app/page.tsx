@@ -6,9 +6,9 @@ import TransitionPage from "@/components/transition-page";
 
 export default function Home() {
   return (
-    <main>
+    <main className="min-h-screen">
       <TransitionPage />
-      <div className="flex min-h-[100vh] h-full bg-no-repeat bg-[#030e32]">
+      <div className="flex">
         <CoverParticles />
         <Introduction />
       </div>

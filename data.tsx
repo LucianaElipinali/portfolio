@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Github, Instagram } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Github, Code } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa"; // Ícono de FontAwesome
 
 export const socialNetworks = [
@@ -12,12 +12,6 @@ export const socialNetworks = [
     {
         id: 2,
         logo: <Github size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-   
-    {
-        id: 3,
-        logo: <Instagram size={30} strokeWidth={1} />,
         src: "#!",
     },
    
@@ -55,25 +49,20 @@ export const itemsNavbar = [
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        title: "Responsable de Ventas y Gestión de Redes Sociales",
+        subtitle: "Garage Showroom | Santa Lucía, San Juan, Argentina",
+        description: "Diseñé y gestioné contenido para redes sociales (Instagram y WhatsApp).Fortalecí habilidades en atención al cliente y comunicación",
+        date: "Dic. 2022",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Creadora de Contenido Digital",
+        subtitle: "De Ronda Resto Bar | Santa Lucía, San Juan, Argentina",
+        description: "Desarrollé contenido visual para redes sociales, incluyendo fotografía, diseño y publicación en Instagram, Facebook y WhatsApp.",
+        date: "Ene. 2020",
+
     },
-    {
-        id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
-    },
+    
 ]
 
 export const dataCounter = [
@@ -102,11 +91,7 @@ export const dataCounter = [
 ];
 
 export const serviceData = [
-    {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
-    },
+   
     {
         icon: <Pencil />,
         title: "Diseño web",
@@ -117,72 +102,20 @@ export const serviceData = [
         title: "Desarrollo web",
         description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
     },
+    
     {
-        icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
-    },
-    {
-        icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        icon: <Code />,
+        title: "Desarrollo de Aplicaciones Web",
+        description: "Creación de aplicaciones web con React, Redux y GraphQL.",
     },
 ];
 
 export const dataPortfolio = [
-    {
-        id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
+    
     {
         id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
+        title: "DOGTEL",
+        image: "/Dogtel.png",
         urlGithub: "#!",
         urlDemo: "#!",
     }

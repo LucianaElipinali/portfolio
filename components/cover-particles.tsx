@@ -52,7 +52,7 @@ export const CoverParticles = () => {
                             color: "#ffffff",
                             distance: 150,
                             enable: true,
-                            opacity: 1,
+                            opacity: 0.5,
                             width: 1,
                         },
                         move: {
@@ -87,4 +87,4 @@ export const CoverParticles = () => {
             />
         </div>
     )
-}; 
+};
